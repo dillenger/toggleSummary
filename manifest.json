@@ -1,0 +1,37 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "toggleSummary@dillinger",
+      "strict_min_version": "102.0",
+      "strict_max_version": "124.*"
+    }
+  },
+  "manifest_version": 2,
+  "name": "Toggle Summary",
+  "description": "Adds a Toggle Summary button",
+  "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/toggle-summary/",
+  "version": "1.5",
+  "message_display_action": {
+    "default_title": "Toggle Summary",
+    "default_label": "Summary",
+    "default_icon": "toggleSummary1.png"
+  },
+  "icons": {
+    "32": "toggleSummary.png"
+  },
+  "background": {
+    "scripts": [
+      "toggleSummary.js"
+    ]
+  },
+  "experiment_apis": {
+    "LegacyPrefs": {
+      "schema": "api/LegacyPrefs/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["LegacyPrefs"]],
+        "script": "api/LegacyPrefs/implementation.js"
+      }
+    }
+  }
+}
