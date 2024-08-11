@@ -2,15 +2,15 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "toggleSummary@dillinger",
-      "strict_min_version": "102.0",
-      "strict_max_version": "130.*"
+      "strict_min_version": "115.0",
+      "strict_max_version": "131.*"
     }
   },
   "manifest_version": 2,
   "name": "Toggle Summary",
   "description": "Adds a Toggle Summary button",
   "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/toggle-summary/",
-  "version": "1.5",
+  "version": "1.6",
   "message_display_action": {
     "default_title": "Toggle Summary",
     "default_label": "Summary",
