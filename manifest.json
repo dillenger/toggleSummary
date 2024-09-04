@@ -3,7 +3,7 @@
     "gecko": {
       "id": "toggleSummary@dillinger",
       "strict_min_version": "115.0",
-      "strict_max_version": "131.*"
+      "strict_max_version": "132.*"
     }
   },
   "manifest_version": 2,
